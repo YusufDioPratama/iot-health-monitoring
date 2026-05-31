@@ -1,0 +1,64 @@
+# Environment and secrets
+.env
+*.env
+**/.env
+backend/.env
+backend/env/
+env/
+venv/
+.venv/
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Flutter / Dart
+.dart_tool/
+**/.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+**/build/
+mobile_gateway/build/
+
+# Keep pubspec.lock for this Flutter application.
+
+# Android / Gradle
+**/android/.gradle/
+**/android/app/build/
+**/android/local.properties
+local.properties
+*.apk
+*.aab
+*.sha1
+
+# iOS / CocoaPods
+ios/Pods/
+**/ios/Pods/
+
+# IDE and local machine files
+.idea/
+**/.idea/
+.vscode/
+**/.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+
+# JavaScript tooling
+node_modules/
+**/node_modules/
+
+# Logs and coverage
+*.log
+coverage/
+**/coverage/
